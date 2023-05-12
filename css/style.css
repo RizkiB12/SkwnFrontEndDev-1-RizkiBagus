@@ -20,7 +20,7 @@ body {
   font: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #000000;
-  min-height: 5000px;
+  min-height: 3000px;
 }
 
 .navbar {
@@ -184,36 +184,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
-
-/* .card-01 {
-  background: tomato;
-  position: relative;
-  flex: 1;
-  max-width: 300px;
-  height: 150px;
-  margin: 1rem;
-  border-radius: 0.5rem;
-}
-
-.card-02 {
-  background-color: chartreuse;
-  position: relative;
-  flex: 1;
-  max-width: 460px;
-  height: 200px;
-  margin: 1rem;
-  border-radius: 0.5rem;
-}
-
-.card-03 {
-  background-color: gold;
-  position: relative;
-  flex: 1;
-  max-width: 940px;
-  height: 300px;
-  margin: 1rem;
-  border-radius: 0.5rem;
-} */
 
 /* About Us */
 .about .container {
@@ -499,21 +469,6 @@ body {
     max-width: 600px;
     padding-left: 2rem;
   }
-
-  /* .card-01 {
-    flex: 100%;
-    max-width: 600px;
-  }
-
-  .card-02 {
-    flex: 100%;
-    max-width: 600px;
-  }
-
-  .card-03 {
-    flex: 100%;
-    max-width: 600px;
-  } */
 
   /* About Us Section*/
   .about .container .row .choose {

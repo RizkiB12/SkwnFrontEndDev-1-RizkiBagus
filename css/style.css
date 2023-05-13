@@ -306,6 +306,53 @@ body {
   color: var(--primary);
   margin-bottom: 1rem;
 }
+
+/* Product */
+.product .container {
+  padding: 7rem 10% 1.4rem;
+  background-color: #2f241f;
+  color: #e5f0b6;
+}
+
+.product .container .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product .container .row .product-text {
+  position: relative;
+  flex: 1;
+  max-width: 460px;
+}
+
+.product .container .row .product-text p {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  color: #e5f0b6;
+}
+
+.product .container .row .product-text h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #e5f0b6;
+  margin-bottom: 2rem;
+}
+
+.product .container .row .product-text a {
+  margin-top: 1rem;
+  display: inline;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: var(--primary);
+  border: 0.1rem solid #e5f0b6;
+  background-color: #e5f0b6;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
 /* Parthnership */
 .parthnership .container {
   padding: 7rem 10% 1.4rem;
